@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="header-info">
+                <h1>NAGA VENKATA LAKSHMI NARAYANA MARRIPUDI</h1>
+                <p>Email:lakshminarayana9867@gmail.com</p>
+                <p>Phone:  9398226579</p>
+                <p>Location:  Bhimavaram, India</p>
+            </div>
+            <img src=" " alt="pic">
+        </div>
+        <h3>About Me</h3>
+        <hr>
+        <p>I am a passonate frontend developer with a strong intrest in responsive web applications </p>
+        <h3>Skills</h3>
+        <hr>
+        <ul>
+            <p><li><b>Programming Languages:</b>Python,Basic Java, HTML, CSS, JavaScript.</li></p>
+            <p><li><b>Database:</b> MySQL.</li></p>
+            <p><li><b>Frameworks:</b> React.js, Node.js, TensorFlow.js.</li></p>
+            <p><li><b>Other Skills:</b> Good Communication, Leadership Qualities.</li></p>
+        </ul>
+        <h3>Projects</h3>
+        <hr>
+        <ul>
+            <p><b>EatBuddy(A online food ordering food Web Application in college canteen)</b></p>
+             <p><b>Job Application Screening (Machine Learning Model)</b></p>
+            <li>Developed an ML model to predict applicant suitability based on various features.</li>
+            <li>Optimized recruitment by reducing manual screening with high-accuracy predictions.</li>
+        </ul>
+        <h3>Certifications</h3>
+        <hr>
+        <ul>
+            <li>Introduction to Cybersecurity</li>
+            <li>C Programming</li>
+            <li>Python Programming</li>
+        </ul>
+        <h3>Hobbies</h3>
+        <hr>
+        <ul>
+            <li>Learning new things</li>
+            <li>Reading books</li>
+        </ul>
+        <h3>Contact</h3>
+        <hr>
+        <p><b>Email:</b>lakshminarayana9867@gmail.com</p>
+        <p><b>Phone:</b> 9398226579</p>
+        <p><b>Github: <a href="https://github.com/MnvlNarayana" target="_blank">github.com/MnvlNarayana</a></b></p>
+        <p><b>LinkedIn: <a href="www.linkedin.com/in/naga-venkata-lakshmi-narayna-marripudi" target="_blank">www.linkedin.com/naga-venkata-lakshmi-narayna-marripudi</a></b></p>
+        <footer style="text-align: center;"> &COPY; 2025 NAGA VENKATA LAKSHMI NARAYANA MARRIPUDI </footer>
+    </div>
+    <button class="toggle-btn" onclick="toggleTheme()">🌙 Dark Mode</button>
+      <script>
+    let isDark = false;
+
+    function toggleTheme() {
+      const body = document.body;
+      const button = document.querySelector('.toggle-btn');
+      const main=document.querySelector('.main');
+
+      if (!isDark) {
+        body.style.backgroundColor = "#003300"; // Dark green
+        body.style.color = "#ffffff"; // make text light
+        button.textContent = "☀️ Light Mode";
+        button.style.backgroundColor = "#66ff66";
+        button.style.color = "#003300";
+        main.style.color="#000000"
+
+      } else {
+        body.style.backgroundColor = "#ccf2cc"; // Light mode
+        body.style.color = "black"; // restore text color
+        button.textContent = "🌙 Dark Mode";
+        button.style.backgroundColor = "#2ecc71";
+        button.style.color = "white";
+      }
+
+      isDark = !isDark;
+    }
+  </script>
+</body>
+</html>
+

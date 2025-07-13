@@ -1,0 +1,49 @@
+.main{
+    border: 2px solid green;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-info {
+    flex: 0.7;
+}
+img {
+    height: 170px;
+    width: 150px;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+h1,h3{
+    color: green;
+}
+hr{
+  border: 1px solid green;
+}
+
+body{
+    background-color: rgb(204, 242, 204);
+}
+button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #2ecc71;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
